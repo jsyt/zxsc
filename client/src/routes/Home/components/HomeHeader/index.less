@@ -1,0 +1,44 @@
+@BG: #2A2A2A;
+
+.home-header {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 999;
+  .logo-header {
+    height: 250px;
+    background-color: @BG;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      height: 200px;
+      margin-left: 50px;
+    }
+    svg {
+      font-size: 150px;
+      margin-right: 60px;
+    }
+  }
+  .category {
+    position: absolute;
+    width: 100%;
+    top: 230px;
+    left: 0;
+    padding: 10px 50px;
+    background-color: @BG;
+    li {
+
+      line-height: 200px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 100px;
+      border-top: 20px solid lighten(@BG, 20%);
+      &.active {
+        color: red
+      }
+    }
+  }
+}

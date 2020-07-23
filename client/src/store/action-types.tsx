@@ -1,0 +1,12 @@
+
+
+export const SET_CURRENT_CATEGORY = 'SET_CURRENT_CATEGORY';
+export const VALIDATE = 'VALIDATE';
+export const LOGOUT = 'LOGOUT';
+export const SET_AVATAR = 'SET_AVATAR';
+export const GET_SLIDER = 'GET_SLIDER';
+
+export const SET_LESSONS = 'SET_LESSONS';
+export const GET_LESSONS = 'GET_LESSONS';
+export const SET_LESSONS_LOADING = 'SET_LESSONS_LOADING';
+export const REFRESH_LESSONS = 'REFRESH_LESSONS';
